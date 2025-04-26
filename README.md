@@ -10,12 +10,23 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+int main()
+{
+    char ch,ch1,ch2;
+    scanf("%c%c%c",&ch,&ch1,&ch2);
+    printf("The reverse of %c%c%c is %c%c%c",ch,ch1,ch2,ch2,ch1,ch);
+    return 0;
+    
+}
+```
 
 ## OUTPUT:
 
 
 
-
+![Screenshot 2025-04-25 084249](https://github.com/user-attachments/assets/b19ac77f-cf87-4cfe-a4d4-03b8b62796e1)
 
 
 
@@ -46,12 +57,30 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+```
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if (a>=0)
+    {
+        printf("Number is positive.");
+    }
+    else
+    {
+        printf("Number is negative.");
+    }
+    return 0;
+}
+```
 
 # OUTPUT:
 
 
 
 
+![Screenshot 2025-04-25 085748](https://github.com/user-attachments/assets/63b542d8-8236-4737-a42d-dbad7d514e51)
 
 
 
@@ -80,9 +109,28 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if (a<b)
+    {
+        printf("Minimum between %d and %d is %d",a,b,a);
+    }
+    else
+    {
+        printf("Minimum between %d and %d is %d",a,b,b);
+    }
+    return 0;
+}
+```
 
 ## OUTPUT:
 
+
+![Screenshot 2025-04-25 084908](https://github.com/user-attachments/assets/6faab2a1-e8de-4672-b363-c3e504c1b22f)
 
 
 
@@ -111,7 +159,17 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
-
+```
+#include <stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    if(a==1)
+       printf("TRUE");
+       
+   
+}
+```
 ## OUTPUT:
 
 
@@ -119,6 +177,7 @@ Write a C program to check whether the input value is equal to 1 using simple if
 
 
 
+![Screenshot 2025-04-25 085445](https://github.com/user-attachments/assets/85f8b25c-cf9e-4c92-a168-00cc17f13cd1)
 
 
 
